@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
+  "name": "blabr",
+  "description": "Twitter is imploding, might as well make a clone. Written with Go and Qwik.",
   "engines": {
     "node": ">=15.0.0"
   },

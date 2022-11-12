@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
+  "name": "Blabr",
   "short_name": "Blabr",
   "description": "Twitter is imploding, might as well make a clone. Written with Go and Qwik.",
   "start_url": ".",
