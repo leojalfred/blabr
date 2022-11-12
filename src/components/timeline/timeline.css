@@ -1,2 +1,29 @@
 .timeline {
+  border-left: var(--border);
+  border-right: var(--border);
+  margin: 0 auto;
+  max-width: var(--main);
+}
+
+.timeline__header-wrapper {
+  margin: 0 auto;
+  max-width: var(--main);
+  position: fixed;
+  width: 100%;
+}
+
+.timeline__header {
+  align-items: center;
+  background-blend-mode: overlay;
+  background-color: #ffffff7d;
+  backdrop-filter: blur(33px);
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.timeline__heading {
+  font-size: 1.25rem;
+  margin: 0;
 }

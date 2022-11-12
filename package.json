@@ -21,10 +21,14 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
+  "dependencies": {
+    "feather-icons": "^4.29.0"
+  },
   "devDependencies": {
     "@builder.io/qwik": "0.13.1",
     "@builder.io/qwik-city": "0.0.121",
     "@types/eslint": "8.4.9",
+    "@types/feather-icons": "^4.7.0",
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",

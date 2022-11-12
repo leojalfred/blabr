@@ -1,17 +1,15 @@
 :root {
-  --header: 'IBM Plex Sans Condensed', sans-serif;
-  --body: 'IBM Plex Sans', sans-serif;
+  --font: 'Nunito Sans', sans-serif;
+
+  --gray: #e9ecef;
+
+  --border: 1px solid var(--gray);
+
+  --main: 37.5rem;
 }
 
 body {
-  font-family: var(--body);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--header);
+  font-family: var(--font);
+  margin: 0;
+  overscroll-behavior: none;
 }
