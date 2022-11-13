@@ -34,7 +34,8 @@
   transition: background-color 0.2s;
 }
 
-.timeline__activity:hover {
+.timeline__activity:hover,
+.timeline__activity:active {
   background-color: var(--light-violet);
 }
 
@@ -74,6 +75,7 @@
   transition: background-color 0.2s;
 }
 
-.timeline__submit:hover {
+.timeline__submit:hover,
+.timeline__submit:active {
   background-color: var(--dark-violet);
 }
