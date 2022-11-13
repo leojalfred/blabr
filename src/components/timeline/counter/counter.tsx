@@ -1,4 +1,4 @@
-import { component$, Signal, useStylesScoped$ } from '@builder.io/qwik'
+import { component$, Signal, useStyles$ } from '@builder.io/qwik'
 import styles from './counter.css?inline'
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default component$(({ count, circle }: Props) => {
-  useStylesScoped$(styles)
+  useStyles$(styles)
 
   return (
     <div class="counter" ref={count} data-percent="0">
