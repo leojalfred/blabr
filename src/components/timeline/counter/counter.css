@@ -1,0 +1,51 @@
+.counter {
+  border-radius: 100%;
+  display: block;
+  height: 20px;
+  line-height: 0;
+  margin-right: 0.5rem;
+  position: relative;
+  width: 20px;
+}
+
+.counter::after {
+  border-radius: 100%;
+  content: attr(data-percent) '%';
+  display: block;
+  font-size: 0.4rem;
+  height: 16px;
+  left: 50%;
+  line-height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 16px;
+}
+
+.counter__svg {
+  rotate: -90deg;
+}
+
+.counter__outline {
+}
+
+.counter__circle {
+  stroke-width: 0.125rem;
+  stroke-dashoffset: 0;
+}
+
+.counter__circle--outline {
+  stroke: var(--gray);
+}
+
+.counter__circle--fill {
+  stroke: var(--violet);
+  stroke-dashoffset: 56.5487;
+  transition: stroke-dashoffset 0.2s;
+}
+
+.counter__circle--red {
+  stroke: var(--red);
+}

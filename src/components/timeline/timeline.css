@@ -27,3 +27,42 @@
   font-size: 1.25rem;
   margin: 0;
 }
+
+.timeline__activity {
+  cursor: pointer;
+}
+
+.timeline__header-spacer {
+  padding-top: 3.1875rem;
+}
+
+.timeline__form {
+  padding: 0.75rem;
+}
+
+.timeline__input {
+  border: 0;
+  border-bottom: var(--border);
+  box-sizing: border-box;
+  font-size: 1rem;
+  outline: none;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.timeline__bottom-line {
+  align-items: center;
+  display: flex;
+  margin-top: 0.75rem;
+  justify-content: end;
+}
+
+.timeline__submit {
+  border: 0;
+  background-color: var(--violet);
+  border-radius: 10rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
