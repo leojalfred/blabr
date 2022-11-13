@@ -6,8 +6,7 @@
   transition: background-color 0.2s;
 }
 
-.blab:hover,
-.blab:active {
+.blab:hover {
   background-color: var(--light-gray);
 }
 
@@ -23,8 +22,7 @@
   transition: filter 0.2s;
 }
 
-.blab__profile:hover,
-.blab__profile:active {
+.blab__profile:hover {
   filter: brightness(0.9);
 }
 
@@ -50,8 +48,7 @@
   transition: background-color 0.2s;
 }
 
-.blab__more:hover,
-.blab__more:active {
+.blab__more:hover {
   background-color: var(--light-violet);
 }
 
@@ -76,21 +73,17 @@
 }
 
 .blab__action-icon--reply:hover,
-.blab__action-icon--reply:active,
-.blab__action-icon--share:hover,
-.blab__action-icon--share:active {
+.blab__action-icon--share:hover {
   background-color: var(--light-violet);
   stroke: var(--violet);
 }
 
-.blab__action-icon--reblab:hover,
-.blab__action-icon--reblab:active {
+.blab__action-icon--reblab:hover {
   background-color: var(--light-green);
   stroke: var(--green);
 }
 
-.blab__action-icon--favorite:hover,
-.blab__action-icon--favorite:active {
+.blab__action-icon--favorite:hover {
   background-color: var(--light-red);
   stroke: var(--red);
 }

@@ -36,6 +36,7 @@ export default component$(() => {
             <i
               className="blab__action-icon blab__action-icon--reply"
               data-feather="message-circle"
+              onClick$={() => {}}
             />
             <span className="blab__action-count">1</span>
           </div>
@@ -43,6 +44,7 @@ export default component$(() => {
             <i
               className="blab__action-icon blab__action-icon--reblab"
               data-feather="repeat"
+              onClick$={() => {}}
             />
             <span className="blab__action-count">1</span>
           </div>
@@ -50,6 +52,7 @@ export default component$(() => {
             <i
               className="blab__action-icon blab__action-icon--favorite"
               data-feather="heart"
+              onClick$={() => {}}
             />
             <span className="blab__action-count">1</span>
           </div>
@@ -57,6 +60,7 @@ export default component$(() => {
             <i
               className="blab__action-icon blab__action-icon--share"
               data-feather="share"
+              onClick$={() => {}}
             />
           </div>
         </div>
