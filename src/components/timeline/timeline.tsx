@@ -56,6 +56,7 @@ export default component$(() => {
           ref={input}
           type="text"
           placeholder="What's happening?"
+          maxLength={280}
           onInput$={handleInput}
         />
         <div className="timeline__bottom-line">

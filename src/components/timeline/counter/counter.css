@@ -11,7 +11,7 @@
 .counter::after {
   border-radius: 100%;
   content: attr(data-percent) '%';
-  display: block;
+  display: none;
   font-size: 0.4rem;
   height: 16px;
   left: 50%;
