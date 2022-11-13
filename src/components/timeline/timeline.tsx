@@ -19,7 +19,7 @@ export default component$(() => {
   const circle = useSignal<HTMLElement>()
 
   const handleInput = $(() => {
-    let val = input.value?.value.length ?? 0 / 280
+    let val = ((input.value?.value.length ?? 0) / 280) * 100
     if (val < 0) val = 0
     else if (val > 100) {
       val = 100
