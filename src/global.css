@@ -1,9 +1,15 @@
 :root {
   --font: 'Nunito Sans', sans-serif;
 
+  --light-gray: #f8f9fa;
+  --light-green: #d3f9d8;
+  --light-red: #ffe3e3;
+  --light-violet: #e5dbff;
   --gray: #e9ecef;
+  --green: #40c057;
   --red: #ff6b6b;
   --violet: #845ef7;
+  --dark-gray: #868e96;
 
   --border: 1px solid var(--gray);
 

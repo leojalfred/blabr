@@ -6,19 +6,17 @@ import {
   useStylesScoped$
 } from '@builder.io/qwik'
 import feather from 'feather-icons'
+import Blab from './blab/blab'
 import Counter from './counter/counter'
 import styles from './timeline.css?inline'
 
 export default component$(() => {
   useStylesScoped$(styles)
+  useClientEffect$(() => feather.replace())
 
   const input = useSignal<HTMLInputElement>()
   const count = useSignal<HTMLDivElement>()
   const circle = useSignal<HTMLElement>()
-
-  useClientEffect$(() => {
-    feather.replace()
-  })
 
   const handleInput = $(() => {
     let val = input.value?.value.length ?? 0 / 280
@@ -47,6 +45,7 @@ export default component$(() => {
         </div>
       </div>
       <div className="timeline__header-spacer" />
+
       <form
         className="timeline__form"
         preventdefault:submit
@@ -64,6 +63,21 @@ export default component$(() => {
           <button className="timeline__submit">Blab</button>
         </div>
       </form>
+
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
+      <Blab />
     </div>
   )
 })
