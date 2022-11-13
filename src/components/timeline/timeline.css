@@ -16,6 +16,7 @@
   align-items: center;
   background-color: #ffffffd9;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
