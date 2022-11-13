@@ -27,7 +27,8 @@ export default component$(() => {
       val = 100
 
       if (circle.value) circle.value.classList.add('counter__circle--red')
-    }
+    } else if (circle.value)
+      circle.value.classList.remove('counter__circle--red')
 
     const r = parseFloat(circle.value?.getAttribute('r') ?? '0')
     const c = 2 * Math.PI * r
